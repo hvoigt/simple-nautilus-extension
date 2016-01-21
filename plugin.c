@@ -6,9 +6,9 @@
 #include <libnautilus-extension/nautilus-menu-provider.h>
 #include <libnautilus-extension/nautilus-property-page-provider.h>
 
-#include <gtk/gtktable.h>
-#include <gtk/gtkvbox.h>
-#include <gtk/gtkhbox.h>
+#include <gtk/deprecated/gtktable.h>
+#include <gtk/deprecated/gtkvbox.h>
+#include <gtk/deprecated/gtkhbox.h>
 #include <gtk/gtklabel.h>
 #include <string.h>
 #include <time.h>
