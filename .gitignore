@@ -1,0 +1,4 @@
+/nautilus_ext.so
+*.o
+*.swp
+*~
