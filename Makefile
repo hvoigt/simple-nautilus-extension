@@ -13,6 +13,7 @@ all: $(TARGET)
 
 $(TARGET): $(OBJECTS)
 		gcc $(LDFLAGS) $(OBJECTS) -o $(TARGET)
+		chmod -x $(TARGET)
 
 install: all
 	mkdir -p $(LIBDIR)/nautilus/extensions-3.0
