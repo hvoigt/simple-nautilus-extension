@@ -1,0 +1,34 @@
+This is a very simple example for a Gnome Nautilus Extension
+
+I assembled this package because there was no simple compiling example
+demonstrating how to develop a C context menu extension for Nautilus.
+
+To compile and install this extension just do
+
+  make
+
+and as root
+
+  make install
+
+restart nautilus by logging out and back in or restarting it manually
+and you should see a "Do Foo Stuff" context menu item when you right
+click on any file in Nautilus.
+
+For further information see:
+
+  http://www.hvoigt.net/dev/nautilus-extensions-tutor.html
+
+All code was blatantly copied from the specification at
+
+  http://taschenorakel.de/svn/repos/bulldozer/tags/release-0.1.0/documentation/NautilusExtensions.html
+
+If you like it and are interested in a more real life example have look at
+git-cheetah:
+
+  http://repo.or.cz/w/git-cheetah.git
+
+
+Heiko Voigt
+Göttingen
+October 2009
